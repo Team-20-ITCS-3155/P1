@@ -1,0 +1,28 @@
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+}
+
+
+.box-container {
+  position: absolute;     
+  top: 10px;
+  left: 10px;
+  display: flex;
+  flex-wrap: nowrap;        
+  gap: 10px;                
+}
+
+/* each box */
+.box-content{
+  width: 100px;
+  height: 150px;
+  background: #eeeff2;
+  border-left: 10px dotted #D0D0FF;
+  padding: 10px;            
+  font-size: 40px;          
+  display: flex;
+  align-items: flex-start;  
+  cursor: default;
+}
