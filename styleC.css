@@ -10,18 +10,18 @@ body {
   justify-content: space-around;
   height: 100vh;
   font-family: Tahoma, serif;
-  font size: 40px;
+  font-size: 40px;
 }
 .box-content{
   height: 100px;
   width: 100px;
-  border-top: 1px solid #687291
+  border-top: 1px solid #687291;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .box-a{
-  background: linear-gradient(#dfe1e7, #ffffff);
+  background: linear-gradient(red, yellow);
 }
 .box-b{
   background-color: #eeeff2;
@@ -37,7 +37,7 @@ body {
   background-color: #eeeff2;
 }
 .box-e{
-  background-color: #defe1e7;
+  background-color: #dfe1e7;
 }
 .box-f{
   background-color: #eeeff2;
